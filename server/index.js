@@ -128,7 +128,7 @@ exports.handler = async (event) => {
     } else if (method === 'POST') {
         let postQuery = "";
 
-        // create clinical notes
+        // create notes
         postQuery = event['body'] ? JSON.parse(event['body']) : {};
         postQuery.user_id = userId;
 
