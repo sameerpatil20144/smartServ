@@ -8,7 +8,7 @@ In the project directory, you can run in client:
 
 Runs the app in the development mode.<br>
 
-###Tech used for the test 
+### Tech used for the test 
 React- for frontend 
 NodeJs - for Backedend
 AWS-Lamda function- for Serverless app
