@@ -272,7 +272,7 @@ const Notes = () => {
 
         } else if (diff === 300) {
             var fiveMinutes = 60 * 5
-            toast.info('Reminder in !!', {
+            toast.info('Reminder-Time up in 5 mintues !!', {
                 position: "top-center",
                 hideProgressBar: true,
                 closeOnClick: true,
@@ -412,6 +412,9 @@ const Notes = () => {
                     <div style={{ textAlign: 'center' }}>
                         <b style={{ fontSize: '20px' }}>{getDigitalTime}</b>
                     </div>
+                    {/* <div style={{ textAlign: 'center' }}>
+                        <b style={{ fontSize: '20px' }}>{countDown}</b>
+                    </div> */}
                     <Form.Row>
                         <Form.Group as={Col} md={12}>
                             <TextValidator label="Note" onChange={(event) => handleInputChange(event, 'inputTextArea')} name="note" as="textarea" id="" cols="50" rows="5" style={{ border: "solid 1px lightgray" }}
